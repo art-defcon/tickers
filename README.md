@@ -2,7 +2,7 @@
 
 A streamlined application for monitoring stock prices with real-time updates and visualization.
 
-![Stock Ticker Screenshot](https://example.com/ticker-screenshot.png)
+![Stock Ticker Screenshot](https://github.com/art-defcon/tickers/blob/main/ticker-viewer/public/ticker-screenshot.png)
 
 ## Features
 
