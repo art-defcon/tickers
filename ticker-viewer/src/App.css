@@ -1,0 +1,78 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+select {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  background-color: var(--selection-bg-color);
+  color: var(--text-color);
+  font-size: 16px;
+  min-width: 120px;
+}
+
+.symbol-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.symbol-info h2 {
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.chart-container {
+  margin-top: 20px;
+  background-color: var(--card-bg-color);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  height: 300px;
+  position: relative;
+}
+
+.chart-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #c12e34;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid #c12e34;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.loading-message {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
